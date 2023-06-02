@@ -10,7 +10,6 @@ int main(void){
         if(gender == 1){
             weight = (height - 80) * 0.7;
             cout  << fixed  <<  setprecision(1) << weight <<  endl;
-            //printf("%.1f\n", weight);
         }
         if(gender == 2){
             weight = (height - 70) * 0.6;
