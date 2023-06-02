@@ -20,10 +20,7 @@ int main(){
             sum += in[a];
         }
         cout << "Size: " << i << endl;
-        //printf("Size: %d\n", i);
         cout  << "Average: " << fixed  <<  setprecision(3) << sum/i  <<  endl;
-        //cout << "Average: " << sum/i << endl;
-        //printf("Average: %.3f\n", sum/i);
     }
     return 0;
  }
