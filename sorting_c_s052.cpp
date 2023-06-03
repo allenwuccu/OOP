@@ -28,7 +28,5 @@ int main()
     for(int i = 0 ; i < num ; i++){
         cout << i+1 << " " << work[i] << endl;
     }
-     
-    //printf("%d\n", wait);
     return 0;
 }
